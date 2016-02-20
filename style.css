@@ -12,7 +12,7 @@ body {
 .jumbotron {
 	background-color: #000000;
 	color: #ffffff;
-	width: 75rem;
+	max-width: 70em;
 	margin: 0 auto;
 }
 
@@ -63,25 +63,18 @@ a:active {
   color: #ffffff;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 750px) {
   .jumbotron {
   	background-color: #000000;
 	color: #ffffff;
 	width: 40rem;
 	margin: 0 auto;
   }
-
-  .title {
-	margin-top: 45px;
-	font-size: 50px;
-  }
 }
 
 @media (max-width: 450px) {
   .jumbotron {
-  	background-color: #000000;
-	color: #ffffff;
-	width: 30rem;
+	width: 28rem;
 	margin: 0 auto;
   }
 }
