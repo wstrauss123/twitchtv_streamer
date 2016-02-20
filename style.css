@@ -70,10 +70,12 @@ a:active {
 	width: 40rem;
 	margin: 0 auto;
   }
+}
 
-  .title {
-	margin-top: 45px;
-	font-size: 50px;
+@media (max-width: 450px) {
+  .jumbotron {
+	width: 28rem;
+	margin: 0 auto;
   }
 }
 
