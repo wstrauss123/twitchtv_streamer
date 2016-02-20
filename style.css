@@ -76,3 +76,12 @@ a:active {
 	font-size: 50px;
   }
 }
+
+@media (max-width: 450px) {
+  .jumbotron {
+  	background-color: #000000;
+	color: #ffffff;
+	width: 30rem;
+	margin: 0 auto;
+  }
+}
